@@ -22,7 +22,7 @@ const HomePage = () => {
     return (
         <>
     <ScrollContainer>
-       <ScrollPage page={0}>
+       <ScrollPage  page={0}>
                 <Row>
                     <Col>
                     <div className='fill' style={{backgroundImage: `url(${decor_bartender1})` }}>   
