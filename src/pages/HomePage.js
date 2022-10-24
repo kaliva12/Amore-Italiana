@@ -26,7 +26,7 @@ const HomePage = () => {
                 <Row>
                     <Col>
                     <div className='fill' style={{backgroundImage: `url(${decor_bartender1})` }}>   
-                        <Animator animation={Sticky(9,23)}><img className='logo mt-2' src={logo} alt='logo' ></img> </Animator>
+                        <Animator animation={Sticky(8,22)}><img className='logo mt-2' src={logo} alt='logo' ></img> </Animator>
                     </div>        
                     </Col>
                 </Row>
@@ -47,7 +47,7 @@ const HomePage = () => {
        </ScrollPage>
         <ScrollPage page={1}>
             <Animator animation={Page2} >
-            <Animator animation={Sticky(9,23)}><img className='logo mt-2' src={logo} alt='logo' ></img> </Animator>
+            <Animator animation={Sticky(8,22)}><img className='logo mt-2' src={logo} alt='logo' ></img> </Animator>
                 
                     <div className='page2-div'>
                         <Col className='text-center kitchen'>
@@ -66,7 +66,7 @@ const HomePage = () => {
 
         <ScrollPage page={2} >
             <Animator animation={Page2} >
-            <Animator animation={Sticky(9,23)}><img className='logo mt-2' src={logo} alt='logo' ></img> </Animator>
+            <Animator animation={Sticky(8,22)}><img className='logo mt-2' src={logo} alt='logo' ></img> </Animator>
                 
                     <div className='page3-div'>
                         <Col className='text-center kitchen'>
